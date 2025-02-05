@@ -1,0 +1,17 @@
+.get{
+    display: inline-block;
+    box-sizing: border-box;
+    color: rgb(175, 18, 18);
+    width: 200px;
+    height: 200px;
+    background-color: rgb(20, 196, 196);
+    padding: 20px;
+    border: 5px dotted red;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin: 10px;
+    text-align: center;
+}
+.get:nth-child(2n+3){
+    background-color: gold;
+}
